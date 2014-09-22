@@ -1,0 +1,104 @@
+DATA DICTIONARY - GETTING AND CLEANING DATA COURSE PROJECT
+
+The tidy data set provided consists of the following 81 variables. The first 79 variables consist of means and standard deviations of the variables indicated.
+
+The different data files were merged into a single file according to its dimensions.
+
+Activities were labelled as: walking, walking upstairs, walking downstairs, sitting, standing and laying.
+
+Subjects remain identified by code (1-30).
+
+Only variables referring to mean ("mean") and standard deviation ("std") were selected.
+
+Activity names were modified so as to agree with labelling conventions, resulting in the following 79 variable names:
+
+1 tbodyacc_mean_x
+2 tbodyacc_mean_y
+3 tbodyacc_mean_z
+4 tgravityacc_mean_x
+5 tgravityacc_mean_y
+6 tgravityacc_mean_z
+7 tbodyaccjerk_mean_x
+8 tbodyaccjerk_mean_y
+9 tbodyaccjerk_mean_z
+10 tbodygyro_mean_x
+11 tbodygyro_mean_y
+12 tbodygyro_mean_z
+13 tbodygyrojerk_mean_x
+14 tbodygyrojerk_mean_y
+15 tbodygyrojerk_mean_z
+16 tbodyaccmag_mean
+17 tgravityaccmag_mean
+18 tbodyaccjerkmag_mean
+19 tbodygyromag_mean
+20 tbodygyrojerkmag_mean
+21 fbodyacc_mean_x
+22 fbodyacc_mean_y
+23 fbodyacc_mean_z
+24 fbodyacc_meanfreq_x
+25 fbodyacc_meanfreq_y
+26 fbodyacc_meanfreq_z
+27 fbodyaccjerk_mean_x
+28 fbodyaccjerk_mean_y
+29 fbodyaccjerk_mean_z
+30 fbodyaccjerk_meanfreq_x
+31 fbodyaccjerk_meanfreq_y
+32 fbodyaccjerk_meanfreq_z
+33 fbodygyro_mean_x
+34 fbodygyro_mean_y
+35 fbodygyro_mean_z
+36 fbodygyro_meanfreq_x
+37 fbodygyro_meanfreq_y
+38 fbodygyro_meanfreq_z
+39 fbodyaccmag_mean
+40 fbodyaccmag_meanfreq
+41 fbodybodyaccjerkmag_mean
+42 fbodybodyaccjerkmag_meanfreq
+43 fbodybodygyromag_mean
+44 fbodybodygyromag_meanfreq
+45 fbodybodygyrojerkmag_mean
+46 fbodybodygyrojerkmag_meanfreq
+47 tbodyacc_std_x
+48 tbodyacc_std_y
+49 tbodyacc_std_z
+50 tgravityacc_std_x
+51 tgravityacc_std_y
+52 tgravityacc_std_z
+53 tbodyaccjerk_std_x
+54 tbodyaccjerk_std_y
+55 tbodyaccjerk_std_z
+56 tbodygyro_std_x
+57 tbodygyro_std_y
+58 tbodygyro_std_z
+59 tbodygyrojerk_std_x
+60 tbodygyrojerk_std_y
+61 tbodygyrojerk_std_z
+62 tbodyaccmag_std
+63 tgravityaccmag_std
+64 tbodyaccjerkmag_std
+65 tbodygyromag_std
+66 tbodygyrojerkmag_std
+67 fbodyacc_std_x
+68 fbodyacc_std_y
+69 fbodyacc_std_z
+70 fbodyaccjerk_std_x
+71 fbodyaccjerk_std_y
+72 fbodyaccjerk_std_z
+73 fbodygyro_std_x
+74 fbodygyro_std_y
+75 fbodygyro_std_z
+76 fbodyaccmag_std
+77 fbodybodyaccjerkmag_std
+78 fbodybodygyromag_std
+79 fbodybodygyrojerkmag_std
+
+Last two variables are:
+
+80 subject: from 1 to 30
+81 activity:
+	1. LAYING
+	2. SITTING
+	3. STANDING
+	4. WALKING
+	5. WALKING_DOWNSTAIRS
+	6. WALKING_UPSTAIRS
